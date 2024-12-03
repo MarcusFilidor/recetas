@@ -45,6 +45,27 @@
         .ingredients, .instructions {
             margin-top: 10px;
         }
+
+        
+        footer {
+            background-color: #000; /* Negro */
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+
+            nav {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            display: inline-block;
+            text-align: center;
+        }
+        nav:hover {
+            background-color: #F4D03F; /* amarillo */
+            color: black;
+        }
+
     </style>
 </head>
 <body>
@@ -52,12 +73,12 @@
     <header>
         <h1>Recetas Saludables</h1>
         <p>Descubre nuestras recetas fáciles y nutritivas para aprovechar al máximo las frutas y verduras frescas.</p>
-        <nav>
-           <ul>
-
-               <li><a href="file:///C:/xampp/htdocs/DW/ProyectoFinal/imagen.html">Inicio</a></li>
-</ul>
+       
 </header>
+
+<nav>
+<a href="file:///C:/xampp/htdocs/DW/ProyectoFinal/imagen.html">Volver al Inicio</a>
+</nav>
 
     <section>
         <div class="recipe">
@@ -178,9 +199,11 @@
         </div>
     </section>
  
-     <footer>
-        <p>&copy; 2024 Catálogo de Frutas y Verduras. Todos los derechos reservados.</p>
-    </footer>
+  
+<footer>
+    <h2>Frutería "El Plátano Riendo"</h2>
+    <p>&copy; 2024 Todos los derechos reservados</p>
+</footer>
 
 </body>
 </html>
